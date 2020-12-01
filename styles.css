@@ -1,0 +1,41 @@
+body {
+    background-color: #f4abc4;"
+}
+
+hr {
+    background-color: none;
+    border-style: dotted none none;
+    border-width: thick;
+    color: gray;
+    height: 0;
+    width: 5%;
+}
+
+img {
+    height: 150px;
+}
+
+img:hover {
+    background-color: darkgreen;
+}
+
+h1 {
+    color: #333456;
+
+}
+
+h3 {
+    color: #060930;
+}
+
+.laptop {
+    background-color: blue;
+}
+
+.soap {
+    background-color: chocolate;
+}
+
+.circular {
+    border-radius: 100%;
+}
