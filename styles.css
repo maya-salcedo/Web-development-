@@ -1,43 +1,53 @@
 body {
-    background-color: #f4abc4;"
-}
-
-hr {
-    background-color: none;
-    border-style: dotted none none;
-    border-width: thick;
-    color: gray;
-    height: 0;
-    width: 5%;
-}
-
-img {
-    height: 150px;
-}
-
-img:hover {
-    background-color: darkgreen;
+    background-color: #fff5ea;
+    text-align: center;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 h1 {
-    color: #333456;
+    margin-top: 0;
+    font-family: 'Zeyada', cursive;
+}
+
+.intro {
+    position: relative;
+    top: 100px;
+    
+}
+
+.cloud1 {
+    position: absolute;
+    right: 400px;
+    top: 60px;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 400px;
+    top: 200px;
 
 }
 
-h3 {
-    color: #060930;
+.mountain {
+    position: relative;
+    top: 90px
+
+}
+.mypicture{
+    min-width: 50%;
 }
 
-.laptop {
-    background-color: blue;
+.middle-container {
+    position: relative;
+    top: 130px
 }
 
-.soap {
-    background-color: chocolate;
+.bottom-container {
+    position: relative;
+    top: 130px
 }
 
 .circular {
-    border-radius: 100%;
+    border-radius: 90%;
 }
-
-/*comment*/ 
