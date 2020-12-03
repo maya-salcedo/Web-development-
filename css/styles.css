@@ -1,53 +1,80 @@
 body {
-    background-color: #fff5ea;
     text-align: center;
     margin: 0;
     font-family: 'Rubik', sans-serif;
 }
 
-h1 {
-    margin-top: 0;
-    font-family: 'Zeyada', cursive;
+.top-container {
+    background-color:  #f7dad9;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 0;
 }
 
-.intro {
-    position: relative;
-    top: 100px;
-    
+h1 {
+    margin: 100px auto 0 auto;
+    font-family: 'Zeyada', cursive;
+    font-size: 5.6rem;
+    color: #968c83;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #968c83;
 }
 
 .cloud1 {
-    position: absolute;
-    right: 400px;
-    top: 60px;
+    position: relative;
+    left: 300px;;
+    top: 70px;
 }
 
 .cloud2 {
-    position: absolute;
-    left: 400px;
-    top: 200px;
-
+    position: relative;
+    left: 200px;
+    bottom: 700px;
 }
 
 .mountain {
     position: relative;
-    top: 90px
-
+    bottom: 0;
+    width: 60%;
 }
-.mypicture{
-    min-width: 50%;
+.mypicture {
+    width: 15%;
+    border-radius: 100%;
+    position: relative;
+    top: 120px;
 }
 
 .middle-container {
-    position: relative;
-    top: 130px
+    background-color: #fff5ea;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    line-height: 2;
+    text-align: left;
+    
 }
 
 .bottom-container {
-    position: relative;
-    top: 130px
+    position: absolute;
+    top: 3000px
+    background-color:  #f7dad9
 }
 
 .circular {
+    
+}
+
+.circular2 {
     border-radius: 90%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.description {
+    clear: left
 }
