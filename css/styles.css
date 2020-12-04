@@ -1,6 +1,5 @@
 body {
     text-align: center;
-    margin: 0;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -43,38 +42,28 @@ h2 {
 .mypicture {
     width: 15%;
     border-radius: 100%;
-    position: relative;
-    top: 120px;
 }
 
 .middle-container {
     background-color: #fff5ea;
+    padding-top: 120px;
+    padding-bottom: 80px
 }
 
 .skill-row {
     width: 50%;
     margin: 0 auto 0 auto;
-    line-height: 2;
-    text-align: left;
-    
+    line-height: 2;    
 }
 
-.bottom-container {
-    position: absolute;
-    top: 3000px
-    background-color:  #f7dad9
-}
 
-.circular {
-    
-}
 
 .circular2 {
     border-radius: 90%;
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+    width: 50%;
 }
-.description {
-    clear: left
+
+.bottom-container {
+    background-color:  #f7dad9;
+    padding: 60px 0 60px 0;
 }
